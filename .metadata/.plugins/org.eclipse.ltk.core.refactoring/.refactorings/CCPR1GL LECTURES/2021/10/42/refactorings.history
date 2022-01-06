@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LECTURE&apos; to &apos;ARRAYS&apos;&#x0D;&#x0A;- Original project: &apos;CCPR1GL LECTURES&apos;&#x0D;&#x0A;- Original element: &apos;LECTURE&apos;&#x0D;&#x0A;- Renamed element: &apos;ARRAYS&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LECTURE&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LECTURE.java[LECTURE" matchStrategy="1" name="ARRAYS" qualified="false" references="true" similarDeclarations="false" stamp="1634006809101" textual="false" version="1.0"/>
+</session>

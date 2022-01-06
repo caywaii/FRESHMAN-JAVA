@@ -1,0 +1,32 @@
+import java.util.*;
+public class AXIE_CALCULATOR {
+
+	static Scanner input = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+		System.out.println("AXIE ENERGY CALCULATOR");
+		
+		System.out.print("ROUND [1] - 3 ENERGY");
+		
+		System.out.print("ENERGY USED: ");
+		int used = input.nextInt();
+		
+		System.out.println("ENERGY GAINED: ");
+		int gained = input.nextInt();
+		
+		System.out.println("ENERGY DESTROYED ");
+		int destroy = input.nextInt();
+		
+		int tempo1 = 3 - used + 2;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

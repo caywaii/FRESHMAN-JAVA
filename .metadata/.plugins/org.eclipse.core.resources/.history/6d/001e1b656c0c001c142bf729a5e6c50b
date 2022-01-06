@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class IFSTATEMENT {
+
+public static void main(String[] args) {
+	int ans;
+	Scanner input = new Scanner(System.in);
+	System.out.print("Select an operation to perform: ");
+	System.out.println("1. Addition");
+	System.out.println("2. Subtraction");
+	System.out.println("3. Multiplication");
+	System.out.println("4. Division");
+	System.out.println()
+	ans=input.nextInt();
+	if (ans==1){
+		sum();
+	}else if (ans==2) {
+		difference();
+	}else if (ans==3) {
+		product();
+	}else if (ans==4) {
+		quotient();
+	}else {
+		Remainder
+	}
+	//double equals sign - comparing the value
+	//single equals sign - assigning the particular value in that particular value
+}
+}

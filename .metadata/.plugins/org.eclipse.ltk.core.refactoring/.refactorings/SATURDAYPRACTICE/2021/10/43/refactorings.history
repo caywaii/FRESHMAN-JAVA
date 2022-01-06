@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SWITCH_SCANNER&apos; to &apos;JABEE_SWITCH_SCANNER&apos;&#x0D;&#x0A;- Original project: &apos;SATURDAYPRACTICE&apos;&#x0D;&#x0A;- Original element: &apos;SWITCH_SCANNER&apos;&#x0D;&#x0A;- Renamed element: &apos;JABEE_SWITCH_SCANNER&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SWITCH_SCANNER&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{SWITCH_SCANNER.java[SWITCH_SCANNER" matchStrategy="1" name="JABEE_SWITCH_SCANNER" qualified="false" references="true" similarDeclarations="false" stamp="1634817715842" textual="false" version="1.0"/>
+</session>

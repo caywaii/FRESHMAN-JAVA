@@ -1,0 +1,17 @@
+//lesson number 1
+public class Lecture1 {
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+	
+	//this part is like a source code that you can implement in the "main"
+	public static void test(){ 
+		System.out.println("Hello World");
+		
+		
+		
+	}
+}
+	
+	

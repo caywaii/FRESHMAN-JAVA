@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;AIRPLANE_BOOKING&apos; to &apos;AIRLINE_BOOKING&apos;&#x0D;&#x0A;- Original project: &apos;CAY_TRY_PROJECTS&apos;&#x0D;&#x0A;- Original element: &apos;AIRPLANE_BOOKING&apos;&#x0D;&#x0A;- Renamed element: &apos;AIRLINE_BOOKING&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AIRPLANE_BOOKING&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{AIRPLANE_BOOKING.java[AIRPLANE_BOOKING" matchStrategy="1" name="AIRLINE_BOOKING" qualified="false" references="true" similarDeclarations="false" stamp="1635595632836" textual="false" version="1.0"/>
+</session>
