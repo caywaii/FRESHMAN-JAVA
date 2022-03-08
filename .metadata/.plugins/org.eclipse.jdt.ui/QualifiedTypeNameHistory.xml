@@ -18,4 +18,13 @@
     <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.util.JavaScriptScanner"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.tools.SysPropsDumper"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.Event"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="INFORMATION_SYSTEM.menu.event"/>
+    <fullyQualifiedTypeName name="net.proteanit.sql.DbUtils"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseListener"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="javax.swing.JTable"/>
 </qualifiedTypeNameHistroy>
