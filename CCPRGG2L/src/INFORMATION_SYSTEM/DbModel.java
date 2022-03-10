@@ -21,7 +21,7 @@ public class DbModel {
 	String query;
 	ResultSet rs;
 	
-	public void SaveButton(String studId, String studName, String studSex){
+	public void SaveButton(JTable tblstud, String studId, String studName, String studSex){
 		try {
 			
 			Connection con = DriverManager.getConnection(connection, username, password);					
@@ -31,16 +31,17 @@ public class DbModel {
 			create.setString(1, studId);
 			create.setString(2, studName);
 			create.setString(3,  studSex);
+			create.executeUpdate();
 			JOptionPane.showMessageDialog(null,  "The information is saved succesfuly");
-			
-		
 			
 			String sqlAll = "Select * from tblStudents";
 			PreparedStatement findAll = con.prepareStatement(sqlAll);
 			ResultSet rs = findAll.executeQuery();
-		
-			create.executeUpdate();
+			tblstud.setModel(DbUtils.resultSetToTableModel(rs));
 			con.close();
+		
+			
+
 		} catch (Exception err) {
 			{System.out.print(err);}
 		}
@@ -108,7 +109,7 @@ public class DbModel {
 		
 	}
 	
-	public void UpdateButton(String studId, String studName, String studSex) {
+	public void UpdateButton(JTable tblstud, String studId, String studName, String studSex) {
 		try {
 
 			Connection con = DriverManager.getConnection(connection, username, password);					
@@ -117,15 +118,14 @@ public class DbModel {
 		    create.setString(1,  studName);
 			create.setString(2,  studSex);
 		    create.setString(3,  studId);
-	
-			
-			String sqlAll = "Select * from tblStudents";
-			PreparedStatement findAll = con.prepareStatement(sqlAll);
-			ResultSet rs = findAll.executeQuery();
 			create.executeUpdate();
 			
 			JOptionPane.showMessageDialog(null,  "The information is updated succesfuly");
 			
+			String sqlAll = "Select * from tblStudents";
+			PreparedStatement findAll = con.prepareStatement(sqlAll);
+			ResultSet rs = findAll.executeQuery();
+			tblstud.setModel(DbUtils.resultSetToTableModel(rs));
 			
 			con.close();
 			

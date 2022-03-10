@@ -8,5 +8,7 @@ public class InfoSystem {
 		m1.setSize(600,400);
 		m1.setLocationRelativeTo(null);
 		m1.setVisible(true);
+		
+		
 	}
 } 

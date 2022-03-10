@@ -21,13 +21,20 @@ public class menu extends JFrame{
 	public menu(){
 		super("SANTIAGO INFORMATION SYSTEM");
 		setLayout(new FlowLayout());
-		
 		setJMenuBar(menubar);
 		
-//This area is under menu-bar
+	//Color Background
+		menubar.setBackground(Color.DARK_GRAY);
+		frmStudentsMenu.setBackground(new Color(255, 99, 239));
+		exit.setBackground(new Color(255, 99, 239));
+		file.setForeground(Color.pink);
+		trans.setForeground(Color.pink);
+		
+   //This area is under menu-bar
 		file.setMnemonic('F');
 		menubar.add(file);
 		
+   //Under file bar menu
 		frmStudentsMenu.setMnemonic('S');
 		file.add(frmStudentsMenu);
 		
@@ -48,8 +55,39 @@ public class menu extends JFrame{
 
 		frmStudentsMenu.addActionListener(click);
 		exit.addActionListener(click);
+		
+		messageContent();
+	
+	}
+
+	//Setting a opening message
+	void messageContent() {
+		JPanel content = new JPanel();
+		setContentPane(content);
+		content.setLayout(null);
+		content.setBackground(new Color(247, 208, 244));
+		
+		JLabel textMessage = new JLabel();
+		textMessage.setText("Information System");
+		textMessage.setBounds(180, 120, 700, 70);
+		textMessage.setFont(new Font("Times New Roman", Font.BOLD, 25));
+		textMessage.setForeground(Color.DARK_GRAY);
+		
+		JLabel name = new JLabel();
+		name.setText("Made by: Caryl Santiago");
+		name.setBounds(180, 150, 700, 70);
+		name.setFont(new Font("Montserrat", Font.BOLD, 10));
+		name.setForeground(Color.DARK_GRAY);
+		
+		
+		content.add(textMessage);
+		content.add(name);
+
 	}
 	
+
+	
+	//To make the functions worked
 	public class event implements ActionListener{
 		public void actionPerformed(ActionEvent e) {
 			JMenuItem source =(JMenuItem)e.getSource();
